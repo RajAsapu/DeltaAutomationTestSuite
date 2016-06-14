@@ -25,7 +25,6 @@ class LoginPage_Test {
         driver.get(Constants.url)
         driver.findElement(By.id("usernm")).sendKeys("Venkat")
         driver.findElement(By.id("pwd")).sendKeys("SunilBro")
-        driver.findElement(By.id("submit1")).click()
     }
     @After
     public void postExecution()
