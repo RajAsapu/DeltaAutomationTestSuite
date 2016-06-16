@@ -14,7 +14,7 @@ class Constants {
     public static String home_cars_linktext=" Cars"
     public static String home_offers_linktext=" Offers"
     public static String home_blog_linktext=" Blog"
-    public static String home_myaccount_linktext="My Account"
+    public static String home_myaccount_class="show-submenu"
     public static String home_myaccount_login_linktext="Login"
     public static String home_myaccount_signup_linktext="Sign Up"
 
