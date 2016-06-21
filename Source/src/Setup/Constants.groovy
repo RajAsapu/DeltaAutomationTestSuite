@@ -26,5 +26,10 @@ class Constants {
     public static String signup_password_name="password"
     public static String signup_confirmpassword_name="confirmpassword"
     public static String signup_button_class="signupbtn btn_full btn btn-action btn-block btn-lg"
+
+    //Login Page variables
+    public static String login_email_name="username"
+    public static String login_password_name="password"
+    public static String login_login_class="btn btn-primary btn-block btn-lg loginbtn"
 }
 
