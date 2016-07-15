@@ -13,7 +13,7 @@ class Constants {
     public static String home_tours_linktext=" Tours"
     public static String home_cars_linktext=" Cars"
     public static String home_offers_linktext=" Offers"
-    public static String home_blog_linktext=" Blog"
+    public static String home_blog_linktext="Blog"
     public static String home_myaccount_class="show-submenu"
     public static String home_myaccount_login_linktext="Login"
     public static String home_myaccount_signup_linktext="Sign Up"
@@ -31,5 +31,13 @@ class Constants {
     public static String login_email_name="username"
     public static String login_password_name="password"
     public static String login_login_class="btn btn-primary btn-block btn-lg loginbtn"
+
+    //Blog page variables
+    public static String blog_search_name="s"
+    public static String blog_search_button_class="btn btn-primary"
+    public static String blog_categories_panel_class="panel-heading go-text-right"
+    public static String blog_popular_posts_class="panel-heading go-text-right"
+    public static String blog_latest_posts_class="panel-heading"
+    public static String blog_pagination_class="pagination right paddingbtm20"
 }
 
