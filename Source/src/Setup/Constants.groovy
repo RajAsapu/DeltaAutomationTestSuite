@@ -12,7 +12,7 @@ class Constants {
     public static String home_flights_linktext=" Flights"
     public static String home_tours_linktext=" Tours"
     public static String home_cars_linktext=" Cars"
-    public static String home_offers_linktext=" Offers"
+    public static String home_offers_linktext="Offers"
     public static String home_blog_linktext="Blog"
     public static String home_myaccount_class="show-submenu"
     public static String home_myaccount_login_linktext="Login"
@@ -39,5 +39,11 @@ class Constants {
     public static String blog_popular_posts_class="panel-heading go-text-right"
     public static String blog_latest_posts_class="panel-heading"
     public static String blog_pagination_class="pagination right paddingbtm20"
+
+    //Offers page variables
+    public static String offers_name_name="searching"
+    public static String offers_from_name="dfrom"
+    public static String offers_to_name="dto"
+    public static String offers_button_class="btn btn-block btn-primary"
 }
 
