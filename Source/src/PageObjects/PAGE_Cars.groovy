@@ -10,13 +10,21 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import java.util.concurrent.TimeUnit
 
-class PAGE_Offers extends PAGE_Base {
+class PAGE_Cars extends PAGE_Base{
+
     @Test
     public void blog()
     {
-        WebElement offers=driver.findElement(By.partialLinkText(Constants.home_offers_linktext))
-        offers.click()
+        WebElement cars=driver.findElement(By.partialLinkText(Constants.home_cars_linktext))
+        cars.click()
         sleep(6000)
+
+        WebElement pickup=driver.findElement(By.xpath(Constants.cars_pickup_xpath))
+        pickup.click()
+
+        WebElement pickup_text=driver.findElement(By.className(Constants.cars_pickup_text_class))
+        pickup_text.sendKeys("Dubai")
+        pickup_text.submit()
 
         WebElement offersName=driver.findElement(By.name(Constants.offers_name_name))
         offersName.sendKeys("lunch")

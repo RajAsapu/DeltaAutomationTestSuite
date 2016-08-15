@@ -15,17 +15,7 @@ import java.util.concurrent.TimeUnit
 /**
  * Created by Rocky on 6/20/2016.
  */
-class PAGE_Login {
-    WebDriver driver
-    @Before
-    public void driverCreation()
-    {
-        driver=DriverCreation.getChromeDriver()
-        driver.get(Constants.url)
-        driver.manage().timeouts().pageLoadTimeout(2,TimeUnit.MINUTES)
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS)
-        driver.manage().window().maximize()
-    }
+class PAGE_Login extends PAGE_Base {
     @Test
     public void login()
     {
@@ -51,10 +41,4 @@ class PAGE_Login {
         driver.findElement(By.cssSelector("button[class='"+Constants.login_login_class+"']")).click()
         Thread.sleep(3000)
     }
-    @After
-    public void exit()
-    {
-        driver.close()
-    }
-
 }

@@ -11,7 +11,7 @@ class Constants {
     public static String home_hotels_linktext=" Hotels"
     public static String home_flights_linktext=" Flights"
     public static String home_tours_linktext=" Tours"
-    public static String home_cars_linktext=" Cars"
+    public static String home_cars_linktext="Cars"
     public static String home_offers_linktext="Offers"
     public static String home_blog_linktext="Blog"
     public static String home_myaccount_class="show-submenu"
@@ -45,5 +45,9 @@ class Constants {
     public static String offers_from_name="dfrom"
     public static String offers_to_name="dto"
     public static String offers_button_class="btn btn-block btn-primary"
+
+    //Cars page variables
+    public static String cars_pickup_xpath=".//*[@id='s2id_carlocations']/a/span[2]/b"
+    public static String cars_pickup_text_class="select2-input"
 }
 
