@@ -7,6 +7,7 @@ class Constants {
 
     //Home Page variables
     public static String url="http://phptravels.net//"
+    public static String home_linkText="Home"
     public static String home_php_icon_class ="logo"
     public static String home_hotels_linktext=" Hotels"
     public static String home_flights_linktext=" Flights"
