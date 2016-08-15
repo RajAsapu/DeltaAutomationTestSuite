@@ -11,6 +11,8 @@ class ConfigureCapabilities {
     {
         //To disable extensions
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("test-type");
+        options.addArguments("disable-plugins");
         options.addArguments("--disable-extensions");
         return options;
     }
